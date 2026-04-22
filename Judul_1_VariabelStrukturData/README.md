@@ -6,6 +6,7 @@ Program ini menerapkan struktur data Doubly Linked List, dimana setiap data pasi
 <img width="758" height="585" alt="Screenshot 2026-04-22 184016" src="https://github.com/user-attachments/assets/62325586-d0c0-49b3-8486-fb85a8644c93" />
 <img width="684" height="743" alt="Screenshot 2026-04-22 184031" src="https://github.com/user-attachments/assets/bbf6ef1c-8334-4164-9d67-ce5dafd070f6" />
 <img width="801" height="688" alt="Screenshot 2026-04-22 184039" src="https://github.com/user-attachments/assets/73c591b4-54e7-4da0-85b3-a37a7c906c75" />
+
 Pembuatan Node
 Baris pertama mendefinisikan sebuah class yang digunakan sebagai wadah data pasien.
 Baris kedua membuat konstruktor yang akan dijalankan saat objek node dibuat.
@@ -71,5 +72,12 @@ Jika input tidak sesuai pilihan, program akan menampilkan pesan kesalahan.
 Eksekusi Program
 Baris terakhir digunakan untuk memastikan bahwa program hanya dijalankan ketika file dieksekusi secara langsung.
 Jika kondisi terpenuhi, maka fungsi utama akan dipanggil dan seluruh program mulai berjalan.
+
+<img width="461" height="678" alt="Screenshot 2026-04-22 183418" src="https://github.com/user-attachments/assets/f125de1a-5107-405b-81a6-343309d70e59" />
+<img width="476" height="623" alt="Screenshot 2026-04-22 183429" src="https://github.com/user-attachments/assets/dd29d9c7-ded1-4ae9-98ed-69135ddebef2" />
+Pilihan 1 digunakan untuk menginput nama pasien dan memasukkanya ke dalam antrian
+Pilihan 2 digunakan untuk memanggil pasien dan mengeluarkan nama pasien dari antrian
+Pilihan 3 digunakan untuk menampilkan daftar antrian yang ada
+Pilihan 4 digunakan untuk mengakhiri program
 
 Link Video : 
