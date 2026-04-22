@@ -75,9 +75,9 @@ Jika kondisi terpenuhi, maka fungsi utama akan dipanggil dan seluruh program mul
 
 <img width="461" height="678" alt="Screenshot 2026-04-22 183418" src="https://github.com/user-attachments/assets/f125de1a-5107-405b-81a6-343309d70e59" />
 <img width="476" height="623" alt="Screenshot 2026-04-22 183429" src="https://github.com/user-attachments/assets/dd29d9c7-ded1-4ae9-98ed-69135ddebef2" />
-Pilihan 1 digunakan untuk menginput nama pasien dan memasukkanya ke dalam antrian
-Pilihan 2 digunakan untuk memanggil pasien dan mengeluarkan nama pasien dari antrian
-Pilihan 3 digunakan untuk menampilkan daftar antrian yang ada
-Pilihan 4 digunakan untuk mengakhiri program
+Pilihan 1 digunakan untuk menginput nama pasien dan memasukkanya ke dalam antrian.
+Pilihan 2 digunakan untuk memanggil pasien dan mengeluarkan nama pasien dari antrian.
+Pilihan 3 digunakan untuk menampilkan daftar antrian yang ada.
+Pilihan 4 digunakan untuk mengakhiri program.
 
 Link Video : 
