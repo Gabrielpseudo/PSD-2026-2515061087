@@ -80,4 +80,4 @@ Pilihan 2 digunakan untuk memanggil pasien dan mengeluarkan nama pasien dari ant
 Pilihan 3 digunakan untuk menampilkan daftar antrian yang ada.
 Pilihan 4 digunakan untuk mengakhiri program.
 
-Link Video : 
+Link Video : https://youtu.be/cy68tPAmwj8
