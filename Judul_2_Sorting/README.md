@@ -20,17 +20,17 @@ Setelah itu, fungsi exchange_sort() dipanggil untuk mengurutkan data mahasiswa b
 <img width="1573" height="469" alt="Screenshot 2026-04-27 190628" src="https://github.com/user-attachments/assets/1f89e36b-1f4c-44e7-a65f-248373526273" />
 Penjelasan Output
 Pada saat program dijalankan, sistem pertama kali meminta pengguna memasukkan jumlah mahasiswa. Pada contoh di atas, pengguna memasukkan angka 5, artinya akan ada lima data mahasiswa yang dimasukkan. Selanjutnya program meminta input nama dan nilai masing-masing mahasiswa. Data yang dimasukkan adalah:
-Adi 67
-Arief 69
-Budi 72
-Brahma 70
-Dani 76
+[Adi 67,
+Arief 69,
+Budi 72,
+Brahma 70,
+Dani 76]
 Setelah seluruh data selesai diinput, program menampilkan Data awal, yaitu data mahasiswa sesuai urutan saat dimasukkan oleh pengguna dan belum mengalami proses pengurutan. Kemudian program menjalankan algoritma Exchange Sort untuk mengurutkan data berdasarkan nilai dari yang terkecil ke terbesar. Hasil akhirnya ditampilkan pada bagian Data terurut, yaitu:
-Adi 67
-Arief 69
-Brahma 70
-Budi 72
-Dani 76
+[Adi 67,
+Arief 69,
+Brahma 70,
+Budi 72,
+Dani 76]
 Urutan tersebut membuktikan bahwa program berhasil melakukan proses sorting sesuai studi kasus, yaitu mengurutkan nilai mahasiswa secara ascending.
 
 Link video : 
