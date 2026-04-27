@@ -33,4 +33,4 @@ Budi 72,
 Dani 76]
 Urutan tersebut membuktikan bahwa program berhasil melakukan proses sorting sesuai studi kasus, yaitu mengurutkan nilai mahasiswa secara ascending.
 
-Link video : https://youtu.be/_0CQ_qqqp84
+Link video :
