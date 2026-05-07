@@ -1,4 +1,4 @@
-<img width="434" height="87" alt="Screenshot 2026-05-07 183813" src="https://github.com/user-attachments/assets/164b76bf-49e4-474f-a728-b341d209eb7b" />Sistem Pencarian Nama Pasien Menggunakan Sequential Search
+Sistem Pencarian Nama Pasien Menggunakan Sequential Search
 
 Program ini merupakan aplikasi sederhana berbasis Python yang digunakan untuk melakukan pencarian nama pasien pada sebuah daftar data pasien. Pengguna diminta memasukkan beberapa nama pasien, kemudian program akan mencari apakah nama yang diinput tersedia di dalam daftar tersebut.
 <img width="322" height="92" alt="Screenshot 2026-05-07 183445" src="https://github.com/user-attachments/assets/828dc881-6619-42ff-971d-a706f3a3148b" />
