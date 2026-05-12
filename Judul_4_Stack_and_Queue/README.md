@@ -16,4 +16,5 @@ Fungsi display digunakan untuk menampilkan seluruh isi stack. Program pertama ka
 <img width="506" height="382" alt="Screenshot 2026-05-12 074333" src="https://github.com/user-attachments/assets/18a2eb77-6b44-4ecb-961f-cecc37bf7650" />
 <img width="532" height="353" alt="Screenshot 2026-05-12 074348" src="https://github.com/user-attachments/assets/e6703983-9694-4caf-b8ba-809ce16d4c3e" />
 <img width="601" height="276" alt="Screenshot 2026-05-12 074358" src="https://github.com/user-attachments/assets/0d049a5c-bd29-4ed3-aa2b-6e33774b7326" />
-Pivot
+Secara keseluruhan, program ini berhasil menerapkan Stack Array dalam sistem antrian toko. Program mampu memasukkan nama-nama pelanggan kedalam antrian, menampilkan pelanggan berikutnya, menampilkan antrian pelanggan, memanggil pelanggan berikutnya, dan menghentikan program jika sudah selesai digunakan.
+Link video: 
