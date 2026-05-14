@@ -52,7 +52,7 @@ def main():
         print("4. Tampilkan Antrian")
         print("5. Matikan Program")
         try:
-            pilih = int(input("Pilih: ")) # Corrected: Convert input to integer
+            pilih = int(input("Pilih: ")) 
         except ValueError:
             print("Input tidak valid! Harap masukkan angka.")
             continue
