@@ -19,4 +19,4 @@ Di dalam menu utama terdapat empat pilihan, yaitu menambah stok barang, menghapu
 <img width="674" height="409" alt="Screenshot 2026-05-21 192914" src="https://github.com/user-attachments/assets/943ea423-3192-4b5c-a225-6c79d1357983" />
 <img width="460" height="394" alt="Screenshot 2026-05-21 192928" src="https://github.com/user-attachments/assets/c9c63bcf-5afe-4814-901b-bfb36c7a64aa" />
 Secara keseluruhan, program ini berhasil menerapkan Binary Search Tree dalam sistem gudang. Program mampu memasukkan nama dan kode barang ke dalam antrian, menghapus barang dari antrian, menampilkan list barang, dan menghentikan program jika sudah selesai digunakan.
-Link video : 
+Link video : https://youtu.be/pNg5PvVesiw
