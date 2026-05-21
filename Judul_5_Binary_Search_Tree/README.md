@@ -3,28 +3,20 @@ Sistem Manajemen Stok Barang Menggunakan Binary Search Tree (BST)
 Program ini merupakan aplikasi sederhana berbasis Python yang digunakan untuk mengelola data stok barang pada sebuah gudang bernama Gudang Gula.
 Program menyediakan beberapa fitur utama seperti menambahkan stok barang, menghapus stok barang, serta menampilkan seluruh daftar barang yang tersimpan. 
 Setiap barang memiliki nama dan kode barang sebagai identitas utama.
-<img width="526" height="412" alt="Screenshot 2026-05-21 190945" src="https://github.com/user-attachments/assets/3fe5e88c-f93f-46f5-9ac6-7f0c83f3a71f" />
-<img width="499" height="340" alt="Screenshot 2026-05-21 191001" src="https://github.com/user-attachments/assets/7f4e4f02-8f40-4472-bd50-9bc4dbd6ec7e" />
-<img width="448" height="192" alt="Screenshot 2026-05-21 191011" src="https://github.com/user-attachments/assets/512ff910-f0c8-450e-8de0-c11e5a31bd64" />
-<img width="673" height="316" alt="Screenshot 2026-05-21 191031" src="https://github.com/user-attachments/assets/b06414f7-7643-4a7a-8794-c9152039b060" />
-<img width="572" height="263" alt="Screenshot 2026-05-21 191043" src="https://github.com/user-attachments/assets/9c07b497-9ee9-40c6-bf21-95ddc90af5db" />
-Pada bagian awal program dibuat class bernama Node yang digunakan sebagai elemen dasar dalam Binary Search Tree. Setiap node menyimpan:
-barang = nama barang
-key = kode barang
-left = pointer ke anak kiri
-right = pointer ke anak kanan
-Saat node pertama kali dibuat, pointer kiri dan kanan diinisialisasi dengan nilai None karena node belum memiliki cabang. 
-Node ini menjadi tempat penyimpanan utama setiap data barang di dalam BST.
-Bagian berikutnya membuat class BSTLanjut yang berfungsi untuk mengelola seluruh operasi Binary Search Tree.
-Di dalam konstruktor (__init__), dibuat variabel root yang berfungsi sebagai akar pohon (root node). 
-Pada awal program, nilai root masih None karena belum ada data barang yang dimasukkan.
-Fungsi insert_node digunakan untuk menambahkan data barang ke dalam BST secara rekursif.
-Fungsi menerima tiga parameter:
-root = node saat ini
-barang = nama barang
-key = kode barang
-Program pertama kali memeriksa apakah node saat ini kosong (None). Jika kosong, maka program membuat node baru dan mengembalikannya sebagai posisi baru di tree.
-Jika key barang lebih kecil dari key root saat ini, maka program melanjutkan proses insert ke subtree kiri.
-Jika key barang lebih besar dari key root saat ini, maka program melanjutkan proses insert ke subtree kanan.
-Proses ini terus dilakukan secara rekursif sampai ditemukan posisi kosong untuk menyimpan data baru.
-Struktur BST memastikan data tersusun secara otomatis berdasarkan kode barang.
+<img width="563" height="336" alt="Screenshot 2026-05-21 192300" src="https://github.com/user-attachments/assets/6d2de048-d5ac-4faf-a934-3a79af678d20" />
+<img width="563" height="334" alt="Screenshot 2026-05-21 192314" src="https://github.com/user-attachments/assets/19a13518-0504-4e8d-a8a6-fd432f83fb87" />
+<img width="473" height="191" alt="Screenshot 2026-05-21 192323" src="https://github.com/user-attachments/assets/17b0a8e3-2b7a-4f3b-aed5-2f6937c6577e" />
+<img width="557" height="317" alt="Screenshot 2026-05-21 192338" src="https://github.com/user-attachments/assets/6370bb61-3038-4488-89ee-d0357693077d" />
+<img width="499" height="276" alt="Screenshot 2026-05-21 192350" src="https://github.com/user-attachments/assets/93b512a0-eaf3-479b-9e10-20d467cd8a5a" />
+Pada bagian awal program dibuat sebuah class bernama Node. Class ini digunakan sebagai struktur dasar untuk menyimpan data barang di dalam Binary Search Tree. Setiap node memiliki beberapa atribut, yaitu barang untuk menyimpan nama barang, key untuk menyimpan kode barang, serta left dan right yang berfungsi sebagai penunjuk ke child kiri dan child kanan. Ketika node pertama kali dibuat, child kiri dan child kanan diinisialisasi dengan nilai None karena node belum memiliki cabang.
+Selanjutnya program membuat class BSTLanjut yang digunakan untuk mengelola seluruh operasi pada Binary Search Tree. Pada konstruktor class ini dibuat variabel root yang berfungsi sebagai akar pohon (root node). Pada awal program dijalankan, nilai root masih kosong (None) karena belum ada data barang yang dimasukkan.
+Program kemudian memiliki fungsi insert_node yang digunakan untuk menambahkan data barang ke dalam BST. Fungsi ini bekerja secara rekursif dengan menerima parameter berupa root saat ini, nama barang, dan kode barang. Jika root kosong, maka program akan membuat node baru dan mengembalikannya sebagai node baru pada tree. Jika kode barang lebih kecil dari key root, maka proses insert dilanjutkan ke subtree kiri. Sebaliknya, jika kode barang lebih besar dari key root, maka proses insert dilanjutkan ke subtree kanan. Proses ini berlangsung terus sampai ditemukan posisi kosong untuk menyimpan data baru. Dengan cara ini, data barang otomatis tersusun berdasarkan kode barang.
+Selain proses penambahan data, program juga menyediakan fungsi delete_node yang digunakan untuk menghapus data barang berdasarkan kode barang. Fungsi ini juga bekerja secara rekursif. Program pertama kali memeriksa apakah root kosong. Jika kosong, maka fungsi langsung mengembalikan None. Jika key yang dicari lebih kecil dari key root, maka proses penghapusan dilanjutkan ke subtree kiri. Jika key lebih besar, maka proses dilanjutkan ke subtree kanan.
+Program juga memiliki fungsi delete yang digunakan sebagai pembungkus (wrapper function) agar proses penghapusan lebih mudah dipanggil dari program utama. Fungsi ini hanya memanggil delete_node dengan root utama BST.
+Untuk menampilkan seluruh data barang, program menggunakan fungsi level_order. Fungsi ini menerapkan metode traversal level order atau Breadth First Search (BFS). Traversal dilakukan dengan membaca node per tingkat mulai dari root, kemudian bergerak ke child kiri dan child kanan secara berurutan. Program menggunakan list bernama queue sebagai antrian sementara. Root pertama kali dimasukkan ke queue, kemudian program melakukan perulangan selama queue masih memiliki isi. Node paling depan diambil dan ditampilkan, lalu child kiri dan child kanan dimasukkan kembali ke queue jika tersedia. Dengan metode ini, seluruh data barang dapat ditampilkan sesuai urutan level dalam tree.
+Bagian utama program berada pada fungsi main. Pada bagian ini program pertama kali membuat objek BST dari class BSTLanjut. Selanjutnya dibuat variabel pilih yang digunakan untuk menyimpan pilihan menu pengguna. Program berjalan menggunakan perulangan selama pengguna belum memilih menu keluar.
+Di dalam menu utama terdapat empat pilihan, yaitu menambah stok barang, menghapus stok barang, menampilkan stok barang, dan keluar dari program. Program meminta pengguna memasukkan pilihan menu menggunakan input() lalu mengubahnya menjadi integer menggunakan int(). Proses ini dibungkus menggunakan try-except agar program tidak error jika pengguna memasukkan selain angka.
+<img width="674" height="409" alt="Screenshot 2026-05-21 192914" src="https://github.com/user-attachments/assets/943ea423-3192-4b5c-a225-6c79d1357983" />
+<img width="460" height="394" alt="Screenshot 2026-05-21 192928" src="https://github.com/user-attachments/assets/c9c63bcf-5afe-4814-901b-bfb36c7a64aa" />
+ecara keseluruhan, program ini berhasil menerapkan Binary Search Tree dalam sistem gudang. Program mampu memasukkan nama dan kode barang ke dalam antrian, menghapus barang dari antrian, menampilkan list barang, dan menghentikan program jika sudah selesai digunakan.
+Link video : 
