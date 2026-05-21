@@ -19,15 +19,6 @@ class BSTLanjut:
             root.right = self.insert_node(root.right, barang, key)
         return root
 
-    def insert(self, barang, key):
-        self.root = self.insert_node(self.root, barang, key)
-
-    def find_min_node(self, root):
-        current = root
-        while current is not None and current.left is not None:
-            current = current.left
-        return current
-
     def delete_node(self, root, key):
         if root is None:
             return None
