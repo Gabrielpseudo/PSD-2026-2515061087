@@ -12,4 +12,4 @@ Program diawali dengan pembuatan class SlotState yang berfungsi untuk mendefinis
 <img width="808" height="587" alt="Screenshot 2026-06-07 213444" src="https://github.com/user-attachments/assets/15c48df3-6483-403b-9754-ad2132fcdb31" />
 <img width="745" height="734" alt="Screenshot 2026-06-07 213501" src="https://github.com/user-attachments/assets/6223a7ce-92f9-4dba-9782-bb0315c799ae" />
 <img width="1049" height="232" alt="Screenshot 2026-06-07 213512" src="https://github.com/user-attachments/assets/3b7a7fe1-b8fc-4b83-88c9-5f8d01c8a5b6" />
-Secara keseluruhan, program ini berhasil menerapkan Hash Table. Program mampu menambah buku ke dalam sistem, menghapus buku dari sistem, menampilkan list buku, mencari buku tertentu, dan menghentikan program jika sudah selesai digunakan. Link Youtube : 
+Secara keseluruhan, program ini berhasil menerapkan Hash Table. Program mampu menambah buku ke dalam sistem, menghapus buku dari sistem, menampilkan list buku, mencari buku tertentu, dan menghentikan program jika sudah selesai digunakan. Link Youtube : https://youtu.be/9ahclSWtz3Q
