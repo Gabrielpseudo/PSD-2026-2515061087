@@ -75,7 +75,9 @@ def menu():
     print("\nMenu:")
     print("1. Tambah Buku")
     print("2. Cari Buku")
-    print("3. Keluar")
+    print("3. Hapus Buku")
+    print("4. Tampilkan Semua Buku")
+    print("5. Keluar")
 
 def main():
     hashmap = HashMapOpenAddressing()
@@ -97,6 +99,14 @@ def main():
              else:
                 print("Buku Tidak Ditemukan")
         elif choice == 3:
+            key = int(input("Masukkan Kode Buku Yang Ingin Dihapus: "))
+            if hashmap.remove_key(key):
+                print("Buku Berhasil Dihapus")
+            else:
+                print("Buku Tidak Ditemukan")
+        elif choice == 4:
+            hashmap.display()
+        elif choice == 5:
             break
         else:
             print("Pilihan Tidak Valid")
